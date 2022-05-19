@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/edward/.vscode/extensions'
+let g:netrw_dirhist_5='/Users/edward/projects/rust/multithread-hello'
+let g:netrw_dirhist_4='/private/etc/paths.d'
+let g:netrw_dirhist_3='/Users/edward/projects/one-offs/tripleprep/src'
+let g:netrw_dirhist_2='/Users/edward/projects/HtDP2e'
+let g:netrw_dirhist_1='/private/etc/paths.d'
