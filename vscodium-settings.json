@@ -1,0 +1,47 @@
+// extensions:
+// * vim
+// * eslint
+// * gitlens
+// * prettier
+// * SQL tagged template literals (syntax only)
+//     by Jan Kuehle
+
+{
+    // to see workspace folder
+    // "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
+    "editor.lineNumbers": "relative",
+
+    "editor.minimap.enabled": false,
+    "workbench.settings.editor": "json",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.wordWrap": "on",
+    "editor.rulers": [93],
+    "vim.foldfix": true,
+
+    // git lens
+    "gitlens.blame.avatars": false,
+    "gitlens.blame.format": "${author|9}: ${agoOrDate|13-}",
+
+    // smaller margins
+    // "editor.glyphMargin": false,
+    // "editor.folding": false,
+    "workbench.activityBar.visible": false,
+
+    // don't scroll past last line as much
+    "editor.scrollBeyondLastLine": false,
+    "editor.padding.bottom": 500,
+    "editor.tabSize": 2,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "extensions.ignoreRecommendations": true,
+
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1,
+        "asvetliakov.vscode-neovim": 1,
+    },
+    "diffEditor.maxComputationTime": 0,
+    "editor.fontSize": 11.6,
+}
