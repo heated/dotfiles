@@ -1,3 +1,6 @@
+# do $ fish_config, pick "ayu Mirage" for color
+# set terminal bg to example bg
+
 function fish_greeting
 end
 
